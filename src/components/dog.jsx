@@ -1,11 +1,15 @@
 import React from 'react'
+require('../models/database.js')
 
 
 function Dogbtn(props) {
+	function handleClick() {
+
+	}
 	return (
 		
 			<div>
-				<button>Dog🐶</button>
+				<button onclick={handleClick}>Dog🐶</button>
 			</div>
 		
 		)
