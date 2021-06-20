@@ -1,0 +1,18 @@
+body {
+	background-color: ghostwhite;
+	text-align: center;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button {
+	width: 200px;
+	height: 75px;
+	border-radius: 20px;
+	border: none;
+	position: relative;
+	transition: 1000ms;
+}
+button:hover {
+	box-shadow: 2px 10px 20px azure;
+	transform: rotate3d(1, 1, 1, 45deg);
+	margin: 50px;
+}
